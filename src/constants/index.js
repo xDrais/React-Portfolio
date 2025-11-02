@@ -211,16 +211,16 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Agents automatation project",
+    name: "Agents automatation",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Agent d'automatisation permettant de lire les données d'un fichier CSV, d'envoyer des e-mails automatisés, de réaliser des recherches personnalisées via un LLM Ollama local et de déployer le projet sur Git et Docker.",
     tags: [
       {
         name: "n8n",
         color: "blue-text-gradient",
       },
       {
-        name: "Angular",
+        name: "CI/CD",
         color: "green-text-gradient",
       },
       {
@@ -234,48 +234,48 @@ const projects = [
 
   },
   {
-    name: "Job IT",
+    name: "SysMl v2",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Interface permettant à l'utilisateur d'écrire un code sysMl v2 et de le compiler afin de générer des modèles avec une interface web et une personnalisation de l'interface utilisateur et l'editeur de text Monaco du VSCode.",
     tags: [
       {
-        name: "react",
+        name: "Angular",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Php",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Angular material",
         color: "pink-text-gradient",
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://www.3ds.com/products/catia",
     type: "video",
     video: sysMl,
   },
   {
-    name: "Trip Guide",
+    name: "Factory Layout PCG",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Interface permettant de charger des objets (Avion, obstacle...) dans une page web avec un plan 2D, de dessiner des polygones autour ces objects et de générer un environnement réalité virtuelle (VR) dans Unreal 5 par la génération procédurale (PCG).",
     tags: [
       {
-        name: "nextjs",
+        name: "Angular",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Gojs",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Unreal",
         color: "pink-text-gradient",
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://skyreal.tech/",
     type: "video",
     video: factoryPCG,
   },

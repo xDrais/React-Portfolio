@@ -50,7 +50,7 @@ const About = () => {
         Développeur Full-Stack passionné par la conception de solutions performantes, testées et maintenables. J’aime concevoir des applications robustes et évolutives, en combinant des technologies modernes avec les bonnes pratiques d’architecture logicielle, tout en intégrant des approches CI/CD et DevOps pour garantir la qualité, la fiabilité et la scalabilité des produits.
       </motion.p>
 
-      <div className='mt-20 flex flex-wrap gap-10'>
+      <div className='mt-20 flex flex-wrap gap-10 justify-center items-center'>
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
