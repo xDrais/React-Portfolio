@@ -42,6 +42,8 @@ import dueToData from "./company/cropped-logo-D2D.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import sysMl from "./sysML.mp4";
+import factoryPCG from "./factoryPCG.mp4";
 
 export {
   logo,
@@ -83,4 +85,6 @@ export {
   carrent,
   jobit,
   tripguide,
+  sysMl,
+  factoryPCG
 };

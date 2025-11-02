@@ -24,6 +24,8 @@ import {
   java,
   rxjs,
   cSharp,
+  sysMl,
+  factoryPCG,
 } from "../assets";
 
 export const navLinks = [
@@ -228,6 +230,8 @@ const projects = [
     ],
     image: carrent,
     source_code_link: "https://github.com/xDrais/Agents-automations-tasks",
+    type: "image",
+
   },
   {
     name: "Job IT",
@@ -249,6 +253,8 @@ const projects = [
     ],
     image: jobit,
     source_code_link: "https://github.com/",
+    type: "video",
+    video: sysMl,
   },
   {
     name: "Trip Guide",
@@ -270,6 +276,8 @@ const projects = [
     ],
     image: tripguide,
     source_code_link: "https://github.com/",
+    type: "video",
+    video: factoryPCG,
   },
 ];
 
