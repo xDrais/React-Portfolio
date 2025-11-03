@@ -122,6 +122,28 @@ const Contact = () => {
           </button>
         </form>
       </motion.div> */}
+      <motion.div
+        variants={slideIn("left", "tween", 0.2, 1)}
+        className='flex-[0.9] bg-black-100 p-8 rounded-3xl flex flex-col items-center'
+      >
+        <p className={styles.sectionSubText}>My Resume</p>
+        {/* <h3 className={styles.sectionHeadText}>Curriculum Vitae</h3> */}
+
+        <iframe
+          src="/YASSINE_AMRI_CV.pdf"
+          className="mt-8 w-full h-[800px] rounded-xl shadow-lg"
+          title="Yassin Amri CV"
+        />
+
+        {/* <a
+          href="/YASSINE_AMRI_CV.pdf"
+          download="Yassin_Amri_CV.pdf"
+          className="mt-6 text-white font-semibold bg-tertiary py-3 px-8 rounded-xl shadow-md shadow-primary"
+        >
+          Download CV
+        </a> */}
+      </motion.div>
+
 
       <motion.div
         variants={slideIn("right", "tween", 0.2, 1)}
