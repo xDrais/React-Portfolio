@@ -131,17 +131,20 @@ const Contact = () => {
 
         <iframe
           src="/YASSINE_AMRI_CV.pdf"
-          className="mt-8 w-full h-[800px] rounded-xl shadow-lg"
+          className="mt-8 w-full h-[760px] rounded-xl shadow-lg"
           title="Yassin Amri CV"
         />
-
-        {/* <a
-          href="/YASSINE_AMRI_CV.pdf"
-          download="Yassin_Amri_CV.pdf"
-          className="mt-6 text-white font-semibold bg-tertiary py-3 px-8 rounded-xl shadow-md shadow-primary"
+        
+        <a
+          href="mailto:amri.yassinemoh@gmail.com"
+          className="mt-6 text-white font-semibold bg-tertiary py-3 px-8 rounded-xl shadow-md shadow-primary hover:bg-primary transition-all"
         >
-          Download CV
-        </a> */}
+          Contact Me
+        </a>
+        <p className="mt-4 text-secondary text-sm">
+          or write directly to:{" "}
+          <span className="text-white font-medium">amri.yassinemoh@gmail.com</span>
+        </p>
       </motion.div>
 
 
