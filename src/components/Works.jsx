@@ -95,7 +95,7 @@ const Works = () => {
       <div className='w-full flex'>
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
-          className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
+          className='mt-4 text-secondary text-[17px] max-w-8xl leading-[30px]'
         >
           Les projets suivants illustrent mes compétences et mon expérience à travers
           des exemples concrets de mon travail. Chaque projet est brièvement décrit et accompagné de
@@ -114,4 +114,4 @@ const Works = () => {
   );
 };
 
-export default SectionWrapper(Works, "");
+export default SectionWrapper(Works, "project");

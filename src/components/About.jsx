@@ -45,7 +45,7 @@ const About = () => {
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
+        className='mt-4 text-secondary text-[17px] max-w-8xl leading-[30px]'
       >
         Développeur Full-Stack passionné par la conception de solutions performantes, testées et maintenables. J’aime concevoir des applications robustes et évolutives, en combinant des technologies modernes avec les bonnes pratiques d’architecture logicielle, tout en intégrant des approches CI/CD et DevOps pour garantir la qualité, la fiabilité et la scalabilité des produits.
       </motion.p>
